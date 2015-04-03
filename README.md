@@ -8,23 +8,44 @@ Candidate project names:
 Development
 ===========
 
-Uninstall mono-core and all other dependencies.
+Fedora 21
 
-sudo yum -y remove mono-core
+sudo yum install docker
 
-Install mono yum repo from http://www.mono-project.com/docs/getting-started/install/linux/#centos-fedora-and-derivatives
+sudo systemctl start docker
 
-Install all mono
+sudo docker pull fedora:21
 
-sudo yum -y install mono-complete
+sudo docker run -t -i fedora:21 /bin/bash
 
-Install DNVM
+# yum clean all ; yum -y update
+# yum -y install less screen yum-utils tar autoconf automake libtool make unzip git
+# exit
 
-source ~/.dnx/dnvm/dnvm.sh
+Get container id with
 
-dnmv use <alias>
+sudo docker ps -a
 
-dnu restore
+sudo docker commit -m "Base for aspnet5 dev" -a "Pedro I. Lopez" $ctnid lopezpdvn/aspnet5:base
+
+sudo docker run -h aspnet5 -t -i lopezpdvn/aspnet5:base
+
+# rpm --import "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF"
+# yum-config-manager --add-repo http://jenkins.mono-project.com/repo/centos/
+# yum -y install mono-snapshot-latest
+# . mono-snapshot mono    # latest, other mono can be sourced
+# mozroots --import --machine --sync
+
+[steps from gist]
+
+current_docker = 85696bf1b7b8
+
+
+
+NEED TO COMPILE MONO 4.1 arrrr from master
+https://github.com/aspnet/DataProtection/issues/68
+
+
 
 Documentation
 =============
@@ -51,3 +72,9 @@ https://jesusjzp.github.io/blog/2013/08/07/jekyll-environment-install/
 https://help.github.com/articles/fork-a-repo/
 
 http://www.mono-project.com/docs/getting-started/install/linux/#centos-fedora-and-derivatives
+
+https://gist.github.com/glennc/2b259bfeda1aa7fc144c
+
+http://www.mono-project.com/docs/getting-started/install/linux/ci-packages/
+
+http://davidfowl.com/diagnosing-dependency-issues-with-asp-net-5/

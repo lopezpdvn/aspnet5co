@@ -19,7 +19,7 @@ sudo docker pull fedora:21
 sudo docker run -t -i fedora:21 /bin/bash
 
 # yum clean all ; yum -y update
-# yum -y install less screen yum-utils tar autoconf automake libtool make unzip git
+# yum -y install less screen yum-utils tar autoconf automake libtool make unzip git gettext-devel mono-devel gcc-c++ glibc-devel
 # exit
 
 Get container id with
@@ -38,13 +38,32 @@ sudo docker run -h aspnet5 -t -i lopezpdvn/aspnet5:base
 
 [steps from gist]
 
+
+TODO
+====
+
+TODO
 current_docker = 85696bf1b7b8
-
-
-
 NEED TO COMPILE MONO 4.1 arrrr from master
 https://github.com/aspnet/DataProtection/issues/68
 
+Install Mono
+============
+
+Using mono
+
+[mono-4.0-20150406173800]sh-4.3# mono --version
+Mono JIT compiler version 4.0.0 (tarball Mon Apr  6 13:49:28 EDT 2015)
+Copyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors.
+www.mono-project.com
+        TLS:           __thread
+        SIGSEGV:       altstack
+        Notifications: epoll
+        Architecture:  amd64
+        Disabled:      none
+        Misc:          softdebug 
+        LLVM:          supported, not enabled.
+        GC:            sgen
 
 
 Documentation

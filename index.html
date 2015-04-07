@@ -4,11 +4,11 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Aspnet5 : ASP.NET 5 Development">
+    <meta name="description" content="ASP.NET 5 : ASP.NET 5 Reimplementation">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Aspnet5</title>
+    <title>aspnet5comm</title>
   </head>
 
   <body>
@@ -18,8 +18,8 @@
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/lopezpdvn/aspnet5">View on GitHub</a>
 
-          <h1 id="project_title">Aspnet5</h1>
-          <h2 id="project_tagline">ASP.NET 5 Development</h2>
+          <h1 id="project_title">aspnet5comm</h1>
+          <h2 id="project_tagline">ASP.NET 5 Community work for reimplementation</h2>
 
             <section id="downloads">
               <a class="zip_download_link" href="https://github.com/lopezpdvn/aspnet5/zipball/master">Download this project as a .zip file</a>
@@ -35,23 +35,34 @@
 
 <hr>
 
+<!--<h1>
+<a id="aspnet5" class="anchor" href="#aspnet5" aria-hidden="true"><span
+        class="octicon octicon-link"></span></a>ASP.NET 5</h1>
+-->
+
+<p>This is the documentation of the aspnet5comm project. aspnet5comm is a
+project that comprises the personal efforts by Pedro I. Lopez to collaborate on
+the reimplementation of the ASP.NET framework towards future releases.</p>
+
 <h1>
-<a id="aspnet5" class="anchor" href="#aspnet5" aria-hidden="true"><span class="octicon octicon-link"></span></a>ASPNET5</h1>
-
-
-
-<h2>
 <a id="development" class="anchor" href="#development" aria-hidden="true"><span class="octicon octicon-link"></span></a>Development</h2>
 
 <p>A docker container is used for development. Run below commands to set up docker
 in a Fedora 21 machine.</p>
 
-<pre><code>sudo yum install docker
+<pre><code>sudo yum -y install docker
 sudo systemctl start docker
 sudo docker pull ubuntu:14.10
-sudo docker create -h aspnet50 --name=aspnet50 ubuntu:14.10
+sudo docker create -h aspnet5 --name=aspnet5 ubuntu:14.10
 sudo docker start -t -i ubuntu:14.10
 </code></pre>
+
+<p>Start the container from the pulled image in interactive mode</p>
+
+<pre><code>sudo docker start -t -i ubuntu:14.10
+</code></pre>
+
+<p>Set up needed tools inside the container and exit.</p>
 
 <pre><code>apt-get update
 apt-get upgrade
@@ -59,15 +70,21 @@ apt-get install git autoconf libtool automake build-essential gettext screen unz
 exit
 </code></pre>
 
-<p>Get container id with</p>
+<p>Get container id, and commit it to create a new image.</p>
 
-<p>sudo docker ps -a</p>
+<pre><code>sudo docker ps -a
+sudo docker commit -m "Base for aspnet5 dev" -a "Pedro I. Lopez" $ctnid lopezpdvn/aspnet5:base_ubuntu_0
+</code></pre>
 
-<p>sudo docker commit -m "Base for aspnet5 dev" -a "Pedro I. Lopez" $ctnid lopezpdvn/aspnet5:base_ubuntu_0</p>
+<p>Start the container again in interactive mode</p>
+<pre><code>sudo docker run -h aspnet5 -t -i lopezpdvn/aspnet5:base_ubuntu_0
+</code></pre>
 
-<p>sudo docker run -h aspnet5 -t -i lopezpdvn/aspnet5:base_ubuntu_0</p>
-
-<p>Install latest Mono release from <a href="http://www.mono-project.com/docs/getting-started/install/linux/">http://www.mono-project.com/docs/getting-started/install/linux/</a></p>
+<p><a
+    href="http://www.mono-project.com/docs/getting-started/install/linux/">Install
+latest Mono 3 release</a>. This is the Mono instance that will be used to
+compile Mono 4, via <a
+href="https://en.wikipedia.org/wiki/Bootstrapping_%28compilers%29">bootstrapping</a>.</p>
 
 <pre><code>apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
 echo "deb http://download.mono-project.com/repo/debian wheezy main" | sudo tee /etc/apt/sources.list.d/mono-xamarin.list
@@ -75,10 +92,7 @@ apt-get update
 apt-get install mono-complete referenceassemblies-pcl
 </code></pre>
 
-<h3>
-<a id="compile-and-install-mono" class="anchor" href="#compile-and-install-mono" aria-hidden="true"><span class="octicon octicon-link"></span></a>Compile and install Mono</h3>
-
-<p>Using mono</p>
+<p>Using mono 3.12.1</p>
 
 <pre><code>root@aspnet5:/# mono --version
 Mono JIT compiler version 3.12.1 (tarball Fri Mar  6 19:12:47 UTC 2015)
@@ -92,54 +106,69 @@ www.mono-project.com
         Misc:          softdebug 
         LLVM:          supported, not enabled.
         GC:            sgen
+</code></pre>
+
+<p>Now we're ready to compile latest Mono from the master branch at GitHub,
+using the tools previously installed. We will be installing at
+<code>/usr/local</code>. Note that building may take around 1 hour.</p>
+
+<pre><code>PATH=$PREFIX/bin:$PATH
+git clone https://github.com/mono/mono.git
+cd mono
+./autogen.sh --prefix=$PREFIX
+make
+make install
+</code></pre>
+
+<h2>
+<a id="documentation" class="anchor" href="#documentation"
+    aria-hidden="true"><span class="octicon
+    octicon-link"></span></a>Documentation</h2>
 
 
+<p>Follow these steps to setup a Jekyll environment for the documentation of
+the project.</p><p>Install system rubygems</p>
 
-steps from http://www.mono-project.com/docs/compiling-mono/linux/
+<pre><code>sudo yum -y install rubygems ruby-devel rubygem-bundle gcc
+zlib-devel libxml2-devel libxslt-devel</code></pre>
 
-Documentation
-=============
+<p>Create file Gemfile</p>
 
-Install system rubygems
-
-sudo yum -y install rubygems ruby-devel rubygem-bundle gcc zlib-devel libxml2-devel libxslt-devel
-
-Create file Gemfile
-
-bundle install
-
+<pre><code>bundle install
 bundle config build.nokogiri --use-system-libraries
+bundle install</code></pre>
 
-bundle install
-
+<!--
 ## TODO
-
 TODO
 current_docker = 85696bf1b7b8
 NEED TO COMPILE MONO 4.1 arrrr from master
 https://github.com/aspnet/DataProtection/issues/68
+-->
 
-References
-==========
+<h2>
+<a id="references" class="anchor" href="#references"
+    aria-hidden="true"><span class="octicon
+    octicon-link"></span></a>References</h2>
 
-https://help.github.com/articles/using-jekyll-with-pages/
+<p><a href="https://help.github.com/articles/using-jekyll-with-pages/">https://help.github.com/articles/using-jekyll-with-pages/</a></p>
 
-https://jesusjzp.github.io/blog/2013/08/07/jekyll-environment-install/
+<p><a href="https://jesusjzp.github.io/blog/2013/08/07/jekyll-environment-install/">https://jesusjzp.github.io/blog/2013/08/07/jekyll-environment-install/</a></p>
 
-https://help.github.com/articles/fork-a-repo/
+<p><a href="https://help.github.com/articles/fork-a-repo/">https://help.github.com/articles/fork-a-repo/</a></p>
 
-http://www.mono-project.com/docs/getting-started/install/linux/#centos-fedora-and-derivatives
+<p><a href="http://www.mono-project.com/docs/getting-started/install/linux/#centos-fedora-and-derivatives">http://www.mono-project.com/docs/getting-started/install/linux/#centos-fedora-and-derivatives</a></p>
 
-https://gist.github.com/glennc/2b259bfeda1aa7fc144c
+<p><a href="https://gist.github.com/glennc/2b259bfeda1aa7fc144c">https://gist.github.com/glennc/2b259bfeda1aa7fc144c</a></p>
 
-http://www.mono-project.com/docs/getting-started/install/linux/ci-packages/
+<p><a href="http://www.mono-project.com/docs/getting-started/install/linux/ci-packages/">http://www.mono-project.com/docs/getting-started/install/linux/ci-packages/</a></p>
 
-http://davidfowl.com/diagnosing-dependency-issues-with-asp-net-5/
+<p><a href="http://davidfowl.com/diagnosing-dependency-issues-with-asp-net-5/">http://davidfowl.com/diagnosing-dependency-issues-with-asp-net-5/</a></p>
 
-http://www.mono-project.com/docs/compiling-mono/linux/
+<p><a href="http://www.mono-project.com/docs/compiling-mono/linux/">http://www.mono-project.com/docs/compiling-mono/linux/</a></p>
 
-http://www.mono-project.com/docs/getting-started/install/linux/
-</code></pre>
+<p><a href="http://www.mono-project.com/docs/getting-started/install/linux/">http://www.mono-project.com/docs/getting-started/install/linux/</a></p>
+
       </section>
     </div>
 
@@ -150,8 +179,6 @@ http://www.mono-project.com/docs/getting-started/install/linux/
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-
-    
 
   </body>
 </html>

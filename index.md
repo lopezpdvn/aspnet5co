@@ -27,7 +27,7 @@ sudo docker start -t -i ubuntu:14.10
 ```
 apt-get update
 apt-get upgrade
-apt-get install git autoconf libtool automake build-essential gettext screen
+apt-get install git autoconf libtool automake build-essential gettext screen unzip
 exit
 ```
 
@@ -53,6 +53,7 @@ apt-get install mono-complete referenceassemblies-pcl
 
 Using mono
 
+```
 root@aspnet5:/# mono --version
 Mono JIT compiler version 3.12.1 (tarball Fri Mar  6 19:12:47 UTC 2015)
 Copyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors.

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Aspnet5 : ASP.NET 5 Development">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Aspnet5</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/lopezpdvn/aspnet5">View on GitHub</a>
+
+          <h1 id="project_title">Aspnet5</h1>
+          <h2 id="project_tagline">ASP.NET 5 Development</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/lopezpdvn/aspnet5/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/lopezpdvn/aspnet5/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <hr>
+
+<hr>
+
+<h1>
+<a id="aspnet5" class="anchor" href="#aspnet5" aria-hidden="true"><span class="octicon octicon-link"></span></a>ASPNET5</h1>
+
+
+
+<h2>
+<a id="development" class="anchor" href="#development" aria-hidden="true"><span class="octicon octicon-link"></span></a>Development</h2>
+
+<p>A docker container is used for development. Run below commands to set up docker
+in a Fedora 21 machine.</p>
+
+<pre><code>sudo yum install docker
+sudo systemctl start docker
+sudo docker pull ubuntu:14.10
+sudo docker create -h aspnet50 --name=aspnet50 ubuntu:14.10
+sudo docker start -t -i ubuntu:14.10
+</code></pre>
+
+<pre><code>apt-get update
+apt-get upgrade
+apt-get install git autoconf libtool automake build-essential gettext screen unzip
+exit
+</code></pre>
+
+<p>Get container id with</p>
+
+<p>sudo docker ps -a</p>
+
+<p>sudo docker commit -m "Base for aspnet5 dev" -a "Pedro I. Lopez" $ctnid lopezpdvn/aspnet5:base_ubuntu_0</p>
+
+<p>sudo docker run -h aspnet5 -t -i lopezpdvn/aspnet5:base_ubuntu_0</p>
+
+<p>Install latest Mono release from <a href="http://www.mono-project.com/docs/getting-started/install/linux/">http://www.mono-project.com/docs/getting-started/install/linux/</a></p>
+
+<pre><code>apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+echo "deb http://download.mono-project.com/repo/debian wheezy main" | sudo tee /etc/apt/sources.list.d/mono-xamarin.list
+apt-get update
+apt-get install mono-complete referenceassemblies-pcl
+</code></pre>
+
+<h3>
+<a id="compile-and-install-mono" class="anchor" href="#compile-and-install-mono" aria-hidden="true"><span class="octicon octicon-link"></span></a>Compile and install Mono</h3>
+
+<p>Using mono</p>
+
+<pre><code>root@aspnet5:/# mono --version
+Mono JIT compiler version 3.12.1 (tarball Fri Mar  6 19:12:47 UTC 2015)
+Copyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors.
+www.mono-project.com
+        TLS:           __thread
+        SIGSEGV:       altstack
+        Notifications: epoll
+        Architecture:  amd64
+        Disabled:      none
+        Misc:          softdebug 
+        LLVM:          supported, not enabled.
+        GC:            sgen
+
+
+
+steps from http://www.mono-project.com/docs/compiling-mono/linux/
+
+Documentation
+=============
+
+Install system rubygems
+
+sudo yum -y install rubygems ruby-devel rubygem-bundle gcc zlib-devel libxml2-devel libxslt-devel
+
+Create file Gemfile
+
+bundle install
+
+bundle config build.nokogiri --use-system-libraries
+
+bundle install
+
+## TODO
+
+TODO
+current_docker = 85696bf1b7b8
+NEED TO COMPILE MONO 4.1 arrrr from master
+https://github.com/aspnet/DataProtection/issues/68
+
+References
+==========
+
+https://help.github.com/articles/using-jekyll-with-pages/
+
+https://jesusjzp.github.io/blog/2013/08/07/jekyll-environment-install/
+
+https://help.github.com/articles/fork-a-repo/
+
+http://www.mono-project.com/docs/getting-started/install/linux/#centos-fedora-and-derivatives
+
+https://gist.github.com/glennc/2b259bfeda1aa7fc144c
+
+http://www.mono-project.com/docs/getting-started/install/linux/ci-packages/
+
+http://davidfowl.com/diagnosing-dependency-issues-with-asp-net-5/
+
+http://www.mono-project.com/docs/compiling-mono/linux/
+
+http://www.mono-project.com/docs/getting-started/install/linux/
+</code></pre>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Aspnet5 maintained by <a href="https://github.com/lopezpdvn">lopezpdvn</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>

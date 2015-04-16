@@ -1,0 +1,2 @@
+servelocal:
+	jekyll serve

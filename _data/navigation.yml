@@ -15,6 +15,11 @@
   excerpt: Setting up development environment and guidelines
   image: webimg.jpg
 
+- title: Methodology
+  url: /methodology
+  excerpt: Setting up methods and resources
+  image: webimg.jpg
+
 - title: References
   url: /references
   excerpt: Documentation, projects and people

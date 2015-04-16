@@ -18,10 +18,10 @@ title: "TODO"
 * Provide image files for explanatory purposes.
 
 <!--
+write introduction
+write methodology
 -->
 
 ## TBD
 
 * Required mediums: printed, web only, etc.
-
-

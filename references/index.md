@@ -25,7 +25,10 @@ JavaScript and CSS3. *Microsoft Press*.
 * Condron, G. (2015). *Getting Started with ASP.NET 5 and DNX*. Retrieved April
 10, 2015, from <https://gist.github.com/glennc/2b259bfeda1aa7fc144c>.
 
+* ASP.NET. (2015). *Open Source*. Retrieved April 2, 2015 from <http://www.asp.net/open-source>.
+
 <!--
+
 https://www.library.cornell.edu/research/citation/apa
 https://help.github.com/articles/using-jekyll-with-pages/
 https://jesusjzp.github.io/blog/2013/08/07/jekyll-environment-install/

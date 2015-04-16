@@ -5,6 +5,11 @@
   excerpt: Introduction to project aspnet5co
   image: webimg.jpg
 
+- title: Proposal
+  url: /proposal
+  excerpt: Formal proposal in spanish.
+  image: webimg.jpg
+
 - title: Development
   url: /development
   excerpt: Setting up development environment and guidelines
@@ -13,9 +18,4 @@
 - title: References
   url: /references
   excerpt: Documentation, projects and people.
-  image: webimg.jpg
-
-- title: Proposal
-  url: /proposal
-  excerpt: Formal proposal in spanish.
   image: webimg.jpg

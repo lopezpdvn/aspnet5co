@@ -1,9 +1,3 @@
-# aspnet5co
+# ASP.NET 5: Advocacy and Collaboration
 
-ASP.NET 5: Advocacy and Collaboration
-
----
-
-## TODO
-
-* More media
+Please see the [documentation online](http://lopezpdvn.github.io/aspnet5co).

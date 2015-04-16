@@ -18,7 +18,9 @@ given that it is built on top the Common Language Runtime.
 
 ## Problem
 
-
+ASP.NET is currently being revised and re-implemented as a modular and cross
+platform framework, for its next release version 5. The main goal of this
+project is to accelerate and improve the re-implementation of the framework.
 
 ## Justification
 
@@ -55,9 +57,7 @@ command line tools.
 
 * Test Visual Studio 2015 CTP 7.
 
-* Publicly advocate
+* Publicly advocate ASP.NET, as well as .NET & Web technologies in general.
 
 <!--
-Introducción del Proyecto debe contener
-Problemática 
 -->

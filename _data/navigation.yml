@@ -4,3 +4,8 @@
   url: /introduction
   excerpt: Introduction to project aspnet5co
   image: webimg.jpg
+
+- title: Development
+  url: /development
+  excerpt: Setting up development environment and guidelines
+  image: webimg.jpg

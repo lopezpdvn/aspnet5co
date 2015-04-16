@@ -1,13 +1,13 @@
 ---
 layout: article
-title: "Introduction"
+title: "Development"
 ---
-
-{% include toc.html %}
 
 {{site.data.core.project_description}}
 
-## Development
+{% include toc.html %}
+
+### Development
 
 A Docker container is used for development. Run below commands to set up docker in a Fedora 21 machine.
 
@@ -84,7 +84,7 @@ make
 make install
 {% endhighlight %}
 
-## Documentation
+### Documentation
 
 Follow these steps to setup a Jekyll environment for the documentation of the project.
 

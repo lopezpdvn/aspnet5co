@@ -1,11 +1,10 @@
 ---
-layout: archive
+layout: article
 permalink: /
 title: "Home"
 ---
 
-<div class="tiles">
-{% for post in site.posts %}
-	{% include post-grid.html %}
-{% endfor %}
-</div><!-- /.tiles -->
+{% include toc.html %}
+
+{{site.data.core.project_description}}
+

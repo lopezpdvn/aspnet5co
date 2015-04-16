@@ -7,7 +7,7 @@
 
 - title: Proposal
   url: /proposal
-  excerpt: Formal proposal in spanish.
+  excerpt: Formal proposal in spanish
   image: webimg.jpg
 
 - title: Development
@@ -17,5 +17,10 @@
 
 - title: References
   url: /references
-  excerpt: Documentation, projects and people.
+  excerpt: Documentation, projects and people
+  image: webimg.jpg
+
+- title: TODO
+  url: /todo
+  excerpt: Future work
   image: webimg.jpg

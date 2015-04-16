@@ -4,7 +4,9 @@ permalink: /
 title: "Home"
 ---
 
-{{site.data.core.project_description}}
+<!-- TODO use include directive instead-->
+
+{{site.data.core.project_description}}     
 
 Table of contents:
 

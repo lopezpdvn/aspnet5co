@@ -3,8 +3,6 @@ layout: article
 title: "Development"
 ---
 
-{{site.data.core.project_description}}
-
 {% include toc.html %}
 
 ### Development

@@ -6,7 +6,7 @@ help:
 	@echo "  push	       Push master branch to origin"
 
 servelocal:
-	jekyll serve
+	./bin/servelocal
 
 push:
 	git push origin gh-pages

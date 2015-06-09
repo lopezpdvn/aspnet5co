@@ -7,7 +7,7 @@ teaser: # 400x250 px default teaser image used in image archive grid
 locale:
 
 # Github Pages
-url: //lopezpdvn.github.io/aspnet5co
+url: //pedroivanlopez.com/aspnet5co
 baseurl: /
 
 # Development
@@ -15,7 +15,7 @@ baseurl: /
 #baseurl: /
 
 # Jekyll configuration
-urldoc: "http://lopezpdvn.github.io/aspnet5co"
+urldoc: "http://pedroivanlopez.com/aspnet5co"
 
 sass:
     sass_dir: _sass
@@ -30,16 +30,15 @@ gems:
 
 # Site owner
 owner:
-  name: "Pedro I. Lopez"
-  email: "m@lopezpedro.net"
+  name: "Pedro Ivan Lopez"
+  email: "m@pedroivanlopez.com"
   twitter: "lopezpdvn"
-  website: "http://lopezpedro.net"
+  website: "http://pedroivanlopez.com"
   google:
     ad-client: 
     ad-slot: 
-  bio: "Pedro I. Lopez is a software engineer and a (post-)graduate student at UANL"
+  bio: "Pedro Ivan Lopez is a software engineer and a (post-)graduate student at UANL"
   avatar: bio-photo.jpg # 160x160 px image for author byline
 disqus-shortname:
-
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

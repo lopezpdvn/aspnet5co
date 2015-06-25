@@ -3,6 +3,8 @@ layout: article
 title: "References"
 ---
 
+* Freeman, A. (2013, December). Pro ASP.NET MVC 5, Fifth Edition. *Apress*.ISBN: 9781430265290.
+
 * Matson, D., Allen, K. S., Wilson, B., & Galloway, J. (2014, August).
 Professional ASP.NET MVC 5. *Wrox*. ISBN: 9781118794753.
 
@@ -24,6 +26,8 @@ JavaScript and CSS3. *Microsoft Press*.
 
 * Condron, G. (2015). *Getting Started with ASP.NET 5 and DNX*. Retrieved April
 10, 2015, from <https://gist.github.com/glennc/2b259bfeda1aa7fc144c>.
+
+* Read the Docs (2015). *ASP.NET 5 Documentation*. Retrieved June 9, 2015 from <http://docs.asp.net/en/latest>.
 
 * ASP.NET. (2015). *Open Source*. Retrieved April 2, 2015 from <http://www.asp.net/open-source>.
 

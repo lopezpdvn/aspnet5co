@@ -7,6 +7,13 @@ title: "Development"
 
 ### Development
 
+#### Ubuntu
+
+Since the release of Mono 4, there's a Dockerfile available from the [asp.net
+docker repo at gihub](https://github.com/aspnet/aspnet-docker), for beta4.
+
+#### Fedora 21
+
 A Docker container is used for development. Run below commands to set up docker in a Fedora 21 machine.
 
 {% highlight bash %}

@@ -31,6 +31,10 @@ JavaScript and CSS3. *Microsoft Press*.
 
 * ASP.NET. (2015). *Open Source*. Retrieved April 2, 2015 from <http://www.asp.net/open-source>.
 
+* .NET Web Development and Tools Blog (2015). *Running ASP.NET 5 applications
+  in Linux Containers with Docker*. Retrieved June 25, 2015 from
+  <http://blogs.msdn.com/b/webdev/archive/2015/01/14/running-asp-net-5-applications-in-linux-containers-with-docker.aspx>
+
 <!--
 
 https://www.library.cornell.edu/research/citation/apa

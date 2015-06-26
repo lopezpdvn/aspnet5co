@@ -10,7 +10,7 @@ localserver:
 	./bin/localserver
 
 servelocal:
-	./bin/servelocal
+	bundle exec jekyll serve -w -D -V -H 0.0.0.0
 
 push:
 	git push origin gh-pages

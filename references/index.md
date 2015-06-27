@@ -35,6 +35,8 @@ JavaScript and CSS3. *Microsoft Press*.
   in Linux Containers with Docker*. Retrieved June 25, 2015 from
   <http://blogs.msdn.com/b/webdev/archive/2015/01/14/running-asp-net-5-applications-in-linux-containers-with-docker.aspx>
 
+* Roth, D. (2014). *ASP.NET MVC 6 (now with integrated Web API!)*. Channel 9. Retrieved June 27, 2015. <https://channel9.msdn.com/Events/dotnetConf/2014/MVC-6>
+
 <!--
 
 https://www.library.cornell.edu/research/citation/apa

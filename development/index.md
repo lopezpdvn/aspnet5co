@@ -7,10 +7,25 @@ title: "Development"
 
 ### Development
 
-#### Ubuntu
+Locally build the image with the project's Dockerfile
 
-Since the release of Mono 4, there's a Dockerfile available from the [asp.net
-docker repo at gihub](https://github.com/aspnet/aspnet-docker), for beta4.
+{% highlight bash %}
+$ cd <aspnet5co project dir>
+$ docker build -t aspnet5co .
+{% endhighlight %}
+
+Create/run the container:
+
+{% highlight bash %}
+$ HOSTPORT=<X>
+$ CONTAINERPORT=5000
+$ HOSTVOLUME=<Y>
+$ CONTAINERVOLUME=/aspnet5co_vol
+$ NAME=aspnet5co
+$ docker run -t -i -p $HOSTPORT:$CONTAINERPORT -v $HOSTVOLUME:$CONTAINERVOLUME -h $NAME -e "ASPNET5CO_USER=$(id -h)" $NAME
+{% endhighlight %}
+
+Note that `CONTAINERPORT` matches the PORT in the Dockerfile.
 
 #### Fedora 21
 

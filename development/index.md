@@ -22,7 +22,7 @@ $ CONTAINERPORT=5000
 $ HOSTVOLUME=<Y>
 $ CONTAINERVOLUME=/aspnet5co_vol
 $ NAME=aspnet5co
-$ docker run -t -i -p $HOSTPORT:$CONTAINERPORT -v $HOSTVOLUME:$CONTAINERVOLUME -h $NAME -e "ASPNET5CO_USER=$(id -h)" $NAME
+$ docker run -t -i -p $HOSTPORT:$CONTAINERPORT -v $HOSTVOLUME:$CONTAINERVOLUME -h $NAME -e "ASPNET5CO_USER=$(id -u)" --name $NAME $NAME
 {% endhighlight %}
 
 Note that `CONTAINERPORT` matches the PORT in the Dockerfile.

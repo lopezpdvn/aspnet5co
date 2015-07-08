@@ -7,6 +7,10 @@ title: "Development"
 
 ### Development
 
+#### Docker
+
+##### Debian
+
 Locally build the image with the project's Dockerfile
 
 {% highlight bash %}
@@ -27,7 +31,39 @@ $ docker run -t -i -p $HOSTPORT:$CONTAINERPORT -v $HOSTVOLUME:$CONTAINERVOLUME -
 
 Note that `CONTAINERPORT` matches the PORT in the Dockerfile.
 
-#### Fedora 21
+Inside the container, create user aspnet5co_user with UID same as the
+environment variable ASPNET5CO_USER. Supply a password, it's ok to forget/lost
+it.
+
+{% highlight bash %}
+root@aspnet5co:/# adduser --uid $ASPNET5CO_USER aspnet5co_user
+{% endhighlight %}
+
+{% highlight bash %}
+root@aspnet7co:/# chown -R aspnet5co_user /aspnet5co_vol
+root@aspnet5co:/# su aspnet5co
+aspnet5co_user@aspnet5co:/$ cd aspnet5co_vol
+aspnet5co_user@aspnet5co:/aspnet5co_vol$
+{% endhighlight %}
+
+Create scaffolds with yeoman.
+
+{% highlight bash %}
+aspnet5co_user@aspnet5co:/aspnet5co_vol$ yo generator-aspnet
+<...>
+aspnet5co_user@aspnet5co:/aspnet5co_vol$ exit
+<...>
+{% endhighlight %}
+
+As root
+
+{% highlight bash %}
+root@aspnet7co:/aspnet5co_vol/scaffold# dnu restore
+<...>
+root@aspnet7co:/aspnet5co_vol/scaffold# dnx . kestrel
+{% endhighlight %}
+
+##### Fedora 21
 
 A Docker container is used for development. Run below commands to set up docker in a Fedora 21 machine.
 
@@ -88,7 +124,7 @@ www.mono-project.com
         Notifications: epoll
         Architecture:  amd64
         Disabled:      none
-        Misc:          softdebug 
+        Misc:          softdebug
         LLVM:          supported, not enabled.
         GC:            sgen
 {% endhighlight %}
@@ -102,6 +138,19 @@ cd mono
 ./autogen.sh --prefix=$PREFIX
 make
 make install
+{% endhighlight %}
+
+### Fedora 21
+
+[Install Mono]
+(http://www.mono-project.com/docs/getting-started/install/linux/#centos-fedora-and-derivatives)
+as root.
+
+{% highlight bash %}
+rpm --import "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF"
+yum-config-manager --add-repo http://download.mono-project.com/repo/centos/
+yum clean all ; yum update
+yum install mono-complete
 {% endhighlight %}
 
 ### Documentation

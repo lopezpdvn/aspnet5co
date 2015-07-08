@@ -20,6 +20,11 @@
   excerpt: Setting up methods and resources
   image: webimg.jpg
 
+- title: Testing
+  url: /testing
+  excerpt: Testing
+  image: webimg.jpg
+
 - title: References
   url: /references
   excerpt: Documentation, projects and people

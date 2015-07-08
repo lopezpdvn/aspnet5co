@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "Testing with DNX"
+permalink: /testing/
 ---
 
 Follow [these

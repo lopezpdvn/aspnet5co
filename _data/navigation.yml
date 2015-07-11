@@ -34,3 +34,8 @@
   url: /todo
   excerpt: Future work
   image: webimg.jpg
+
+- title: Other
+  url: /other
+  excerpt: Other
+  image: webimg.jpg

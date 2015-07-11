@@ -25,15 +25,17 @@ running on ASP.NET is that their URLs finish on `aspx` or `asp`, for example
 
 ## Problem
 
-ASP.NET is currently being revised and re-implemented as a modular and cross
-platform framework for its next release version 5, offering very important and
-desirable features and advantages. The license of the software and the
-development methodology by Microsoft allows the project to benefit from
+ASP.NET is currently being revised and re-implemented as a modular, lean and
+cross platform framework for its next release version 5, offering very
+important and desirable features and advantages. The license of the software
+and the development methodology by Microsoft allows the project to benefit from
 feedback and interaction with the community.
 
-The main goal of this project is to accelerate and improve the
-re-implementation of the framework. It has been expressed by the development
-team that ASP.NET 5 will be released later in 2015.
+The main goal of this project is advocate the new version of the framework and
+attract interest from IT professionals, as well as instruct developers into the
+use of this version of the technology.  It has been expressed by the
+development team that ASP.NET 5 will be released later in 2015, see [Project
+Roadmap]({{ site.baseurl }}/roadmap).
 
 ## Justification
 
@@ -55,17 +57,6 @@ See also the [proposal](/proposal) document in spanish.
 
 ## Scope
 
-<!-- "[Right now, living on the bleeding edge will
-hurt](http://davidfowl.com/diagnosing-dependency-issues-with-asp-net-5/#incompatibilities)".
--->
-
-Since the release of the Visual Studio 2015 CTP 6 and the version of ASP.NET
-shipped with it, a lot of activity has moved the ASP.NET projects into more
-advanced development versions living the git repositories. Visual Studio 2015
-CTP 6 is for the moment stuck at Beta 3; no bleeding edge development can be
-done with Visual Studio, instead it currently can only be done directly via de
-command line tools.
-
 ASP.NET 5 represents a rethinking and re-design of .NET server side
 technologies, and it will impact all the current and future marketshare of the
 framework. Notably, Microsoft and related organizations are betting on open
@@ -86,11 +77,6 @@ transparent development.
 
 * Publicly advocate ASP.NET, as well as .NET & Web technologies in general.
 
-* Identify needs and feature requests of the development version of ASP.NET and
-other related open source project in the .NET community.
-
-* Collaborate with the community on the implementation of such needs.
-
 * Introduce the new technology to technical and non-technical audiences.
 
   * Developers both new to .NET & ASP.NET or experienced in previous versions.
@@ -98,10 +84,12 @@ other related open source project in the .NET community.
   * Business leaders looking into integrating modern and robust web
     technologies in their planning.
 
-* Test Visual Studio 2015 CTP 7.
+* Identify needs and feature requests of the development version of ASP.NET and
+  other related open source project in the .NET community.
+
+* Collaborate with the community on the implementation of such needs.
+
+* Test previews and RTM versions of Visual Studio 2015.
 
 * Give feedback about ASP.NET development in Linux, given that the author has
-experience on such operating system.
-
-<!--
--->
+  experience on such operating system.

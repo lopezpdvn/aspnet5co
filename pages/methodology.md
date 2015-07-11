@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "Methodology"
+permalink: "methodology"
 ---
 
 {% include toc.html %}

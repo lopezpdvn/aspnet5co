@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "References"
+permalink: /references/
 ---
 
 * Freeman, A. (2013, December). Pro ASP.NET MVC 5, Fifth Edition. *Apress*.ISBN: 9781430265290.

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "Development"
+permalink: /development/
 ---
 
 {% include toc.html %}

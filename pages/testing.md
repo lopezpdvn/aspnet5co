@@ -4,6 +4,8 @@ title: "Testing with DNX"
 permalink: /testing/
 ---
 
+- - -
+
 Follow [these
 instructions](http://xunit.github.io/docs/getting-started-dnx.html) but don't
 run from the command line. Instead, after adding the `test` command in

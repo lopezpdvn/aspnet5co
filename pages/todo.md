@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "TODO"
+permalink: /todo/
 ---
 
 * Test Visual Studio 2015 CTP 7 when it's released.

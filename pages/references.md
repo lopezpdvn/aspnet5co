@@ -51,7 +51,7 @@ printed.
   <https://channel9.msdn.com/Events/dotnetConf/2014/MVC-6>
 
 * .NET Framework. Wikipedia The Free Encyclopedia. Retrieved June 20, 2015.
-  <https://en.wikipedia.org/wiki/.NET_Framework>g
+  <https://en.wikipedia.org/wiki/.NET_Framework>
 
 
 <http://blogs.msdn.com/b/dotnet/archive/2014/12/04/introducing-net-core.aspx>
@@ -60,6 +60,10 @@ printed.
 <https://github.com/dotnet/roslyn>
 <http://blogs.msdn.com/b/dotnet/archive/2013/09/30/ryujit-the-next-generation-jit-compiler.aspx>
 <http://tirania.org/blog/archive/2014/Nov-12.html>
+<http://techcrunch.com/2014/04/03/microsoft-launches-net-foundation-to-foster-the-net-open-source-ecosystem/>
+<http://www.dotnetfoundation.org/>
+<https://en.wikipedia.org/wiki/Xamarin>
+<https://en.wikipedia.org/wiki/Unity_Technologies>
 
 <!--
 https://www.library.cornell.edu/research/citation/apa

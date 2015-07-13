@@ -49,8 +49,8 @@ Regarding the software framework itself, from now on there will be 2 separate
 * **.NET Core 5** is a general purpose, modern and open source version of the
   framework currently in development, which when released will be supported by
   Microsoft and the community on Windows, Linux and Mac OS X.
-  
-  It is modular by design, and since it can be deployed itself as a Nuget
+
+* It is modular by design, and since it can be deployed itself as a Nuget
   package, it will make it possible for applications to ship with its own .NET
   framework without affecting other .NET applications running on the same
   machine, greatly simplifying deployment and package management. This means
@@ -83,4 +83,32 @@ of now:
 
 ## Involvement with organizations
 
+The .NET Foundation is and independent organization with the goal of improving
+open source development and community collaboration around the .NET Framework
+and related technologies. It was founded by Microsoft in April 2014. Miguel de
+Icaza, co-founder and CTO of Xamarin is on the board of directors.
+
 Microsoft continues to be involved with the Mono project, Xamarin and Unity.
+
+Mono is an open source project that develops a Ecma-standard complian, .NET
+Framework-compatible set of tools, most notably a C# compiler and a CLR.
+
+Xamarin is a software company that creates .NET development tools to create
+shared-code native applications on iOS, Android and Windows Phone.
+
+Unity Technologies is the organization that develops Unity, a cross-platform
+game engine used to develop games for consoles, PC, mobile devices and
+websites. The engine's scripting is built on Mono.
+
+## ASP.NET 5
+
+ASP.NET is one of the most used web frameworks. Among Microsoft technologies it
+is notable in having been open source since its early versions. As stated in
+the [Introduction]({{ site.baseurl }}/introduction). ASP.NET is currently being
+revised and re-implemented as a modular, lean and cross platform framework for
+its next release version 5, offering very important and desirable features and
+advantages.
+
+Not only this new version continues to have all source code available, but the
+methodology adopted by the development team allows and encourages interaction
+with the community.

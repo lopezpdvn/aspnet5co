@@ -57,6 +57,9 @@ printed.
 <http://blogs.msdn.com/b/dotnet/archive/2014/12/04/introducing-net-core.aspx>
 <http://blogs.msdn.com/b/dotnet/archive/2015/02/03/coreclr-is-now-open-source.aspx>
 <http://blogs.msdn.com/b/bethmassi/archive/2015/02/25/understanding-net-2015.aspx>
+<https://github.com/dotnet/roslyn>
+<http://blogs.msdn.com/b/dotnet/archive/2013/09/30/ryujit-the-next-generation-jit-compiler.aspx>
+<http://tirania.org/blog/archive/2014/Nov-12.html>
 
 <!--
 https://www.library.cornell.edu/research/citation/apa

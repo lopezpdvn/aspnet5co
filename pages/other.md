@@ -10,11 +10,11 @@ permalink: /other/
 
 ## The .NET Framework and its future
 
-.NET is a software framework originally released by Microsoft for the
-development of programs in environments such as desktops, servers, mobile
-devices such as phones and tablets and constrained embedded systems. This means
-that the .NET framework can be used to create cross-platform native and web
-applications. It was originally released in the year 2000.
+.NET is a general purpose software framework originally released by Microsoft
+for the development of programs in environments such as desktops, servers,
+mobile devices such as phones and tablets and constrained embedded systems.
+This means that the .NET framework can be used to create cross-platform native
+and web applications. It was originally released in the year 2000.
 
 The .NET framework consists of a large class library called *Framewok Class
 Library* (*FCL*) and provides language interoperability across several
@@ -39,13 +39,48 @@ compilers, libraries, applications models and development workflows of
 applications and of the technologies.
 
 Regarding the software framework itself, from now on there will be 2 separate
-.NET.
+.NETs
 
 * **.NET Framework 4.6** will be the next version of the full framework,
-  building upon 4.5.2. This is the familiar .NET most people already know which
-  will be included in Windows Vista and above. The .NET Framework 4.6 will not
-  be open sourced.
+  building upon 4.5.2. This is the familiar .NET most people already know,
+  which will be included in Windows Vista and above. The .NET Framework 4.6
+  will not be open sourced.
 
-* **.NET Core 5** is a modern and open source version of the framework
-  currently in development, and will be supported by Microsoft and the
-  open source community on Windows, Linux and Mac OSX.
+* **.NET Core 5** is a general purpose, modern and open source version of the
+  framework currently in development, which when released will be supported by
+  Microsoft and the community on Windows, Linux and Mac OS X.
+  
+  It is modular by design, and since it can be deployed itself as a Nuget
+  package, it will make it possible for applications to ship with its own .NET
+  framework without affecting other .NET applications running on the same
+  machine, greatly simplifying deployment and package management. This means
+  that invididual applications can exist isolated and will no longer require
+  machine-wide updates to the .NET framework.
+
+The following components are part of .NET 2015 too and are open source already:
+
+* New versions of the .NET libraries **ASP.NET Web Forms** and **MVC 5**
+
+* **.NET Compiler Platform**, AKA **Roslyn**. It provides C# and Visual Basic
+  compilers with rich code analysis APIs.
+
+* **RyuJIT**, the new default just-in-time (JIT) compiler for .NET on x64
+  architectures.
+
+* **ASP.NET 5**, the new application model for building modern and lean web
+  applications.
+
+The following components are part of .NET 2015 too but are not open source as
+of now:
+
+* **Windows Forms**
+
+* **WPF**
+
+* **.NET Native**
+
+* **Universal Windows Apps**, AKA **Universal Windows Platform**
+
+## Involvement with organizations
+
+Microsoft continues to be involved with the Mono project, Xamarin and Unity.

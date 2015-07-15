@@ -66,6 +66,10 @@ printed.
 <https://en.wikipedia.org/wiki/Unity_Technologies>
 <https://github.com/aspnet/Home>
 <http://news.microsoft.com/2014/11/12/microsoft-takes-net-open-source-and-cross-platform-adds-new-development-capabilities-with-visual-studio-2015-net-2015-and-visual-studio-online/>
+<http://www.infoq.com/news/2015/04/VB-Core>
+<http://blogs.msdn.com/b/webdev/archive/2015/04/23/making-it-better-asp-net-with-visual-basic-14.aspx>
+<http://weblogs.asp.net/scottgu/introducing-asp-net-5>
+<http://www.zdnet.com/article/microsoft-to-open-source-more-of-net-and-bring-it-to-linux-mac-os-x/>
 
 <!--
 https://www.library.cornell.edu/research/citation/apa

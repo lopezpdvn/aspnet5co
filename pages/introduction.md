@@ -60,9 +60,9 @@ See also the [proposal](/proposal) document in spanish.
 ASP.NET 5 represents a rethinking and re-design of .NET server side
 technologies, and it will impact all the current and future marketshare of the
 framework. Notably, Microsoft and related organizations are betting on open
-source and community driven progress across their whole technology stack. It's
-expected that the new release of ASP.NET positively synergizes with other open
-source projects and events, including but not limited to:
+source and community driven progress across their whole server technology
+stack. It's expected that the new release of ASP.NET positively synergizes with
+other open source projects and events, including but not limited to:
 
 * Release of .NET CoreCLR
 

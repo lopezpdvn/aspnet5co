@@ -65,6 +65,7 @@ printed.
 <https://en.wikipedia.org/wiki/Xamarin>
 <https://en.wikipedia.org/wiki/Unity_Technologies>
 <https://github.com/aspnet/Home>
+<http://news.microsoft.com/2014/11/12/microsoft-takes-net-open-source-and-cross-platform-adds-new-development-capabilities-with-visual-studio-2015-net-2015-and-visual-studio-online/>
 
 <!--
 https://www.library.cornell.edu/research/citation/apa

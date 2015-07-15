@@ -6,7 +6,7 @@ title: "Home"
 
 <!-- TODO use include directive instead-->
 
-{{site.data.core.project_description}}     
+{{site.project_description}}     
 
 Table of contents:
 

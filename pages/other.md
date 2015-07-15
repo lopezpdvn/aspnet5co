@@ -35,8 +35,12 @@ preview.
 
 The next generation of .NET technologies is being marketed with the term *.NET
 2015* and it includes importante updates to the framework, the runtimes,
-compilers, libraries, applications models and development workflows of
-applications and of the technologies.
+compilers, libraries, release licenses, applications models and development
+workflows of applications and of the technologies. In short, Microsoft aims to
+significantly improve the developer's experience by open sourcing the full
+server-side .NET stack as well as other important development elements, making
+the framework officially cross-platform by adding support to the Linux and Mac
+OS platforms.
 
 Regarding the software framework itself, from now on there will be 2 separate
 .NETs
@@ -48,9 +52,11 @@ Regarding the software framework itself, from now on there will be 2 separate
 
 * **.NET Core 5** is a general purpose, modern and open source version of the
   framework currently in development, which when released will be supported by
-  Microsoft and the community on Windows, Linux and Mac OS X.
+  Microsoft and the community on Windows, Linux and Mac OS X. It is the
+  foundation of all future .NET platforms and it's released under the [MIT
+  license](https://github.com/dotnet/coreclr/blob/master/LICENSE.TXT).
 
-* It is modular by design, and since it can be deployed itself as a Nuget
+  It is modular by design, and since it can be deployed itself as a Nuget
   package, it will make it possible for applications to ship with its own .NET
   framework without affecting other .NET applications running on the same
   machine, greatly simplifying deployment and package management. This means
@@ -90,15 +96,40 @@ Icaza, co-founder and CTO of Xamarin is on the board of directors.
 
 Microsoft continues to be involved with the Mono project, Xamarin and Unity.
 
-Mono is an open source project that develops a Ecma-standard complian, .NET
+*Mono* is an open source project that develops a Ecma-standard complian, .NET
 Framework-compatible set of tools, most notably a C# compiler and a CLR.
 
-Xamarin is a software company that creates .NET development tools to create
+*Xamarin* is a software company that creates .NET development tools to create
 shared-code native applications on iOS, Android and Windows Phone.
 
-Unity Technologies is the organization that develops Unity, a cross-platform
+*Unity Technologies* is the organization that develops Unity, a cross-platform
 game engine used to develop games for consoles, PC, mobile devices and
 websites. The engine's scripting is built on Mono.
+
+## Cross-platform development with .NET
+
+Since its first versions the .NET framework has been engineered to be
+platform-agnostic. The specifications of the CLI (which includes the core class
+libraries, CTS, and CIL), C#, and C++/CLI have been officially standardized by
+[ECMA](http://www.ecma-international.org) and [ISO](http://www.iso.org). This
+allows third parties to create alternative implementations of the standards,
+since as of now Microsoft has only implemented the framework on the Windows
+operating system.
+
+The most notable third party implementations of the standards are done by the
+Mono Project. *Mono* is an open source implementation of the .NET framework for
+C# and the CLR, including additional functionality not provided by the
+Microsoft's implementation. It runs in Windows, Linux, OS X, Android, BSD,
+Solaris, PlayStation 3, Wii and Xbox 360. It includes support for ASP.NET,
+ADO.NET, Windows Forms, LINQ to Objects, XML, SQL, C#, VisualBasic.NET.
+
+With the recently announced .NET 2015 technologies and plans, cross platform
+development for the server side will be much better and simpler. Given that
+.NET Core will be officially cross-platform and the foundation for all future
+.NET platforms, a single official implementation will be used to ship
+applications to either Linux, Windows or OS X servers. And although there are
+no plans to make Visual Studio IDE cross-platform, it will be possible to
+remotely debug server applications in any environment from the IDE.
 
 ## ASP.NET 5
 

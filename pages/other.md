@@ -201,6 +201,18 @@ supported platforms. It is a command line tool, so starting the same
 application in OS X, Linux or Windows is done with the same command on each
 platform.
 
+When selecting a DNX you choose the .NET environment to use from the three
+available options:
+
+- The full .NET framework, only supported on Windows, with source code
+  available but not open-source-style contributions.
+
+- .NET Core, which currenlty is in development but rapidly evolving. Eventually
+  will be cross-platform but current support for Linux and Mac OS X is very
+  early.
+
+- Mono, which is truly cross-platform.
+
 A DNX project is a folder with a `project.json` file, which contains the
 metadata, dependencies, targeted frameworks and other information (such as
 authors, license, etc) of your project, which in the end will be a NuGet

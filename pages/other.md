@@ -190,6 +190,23 @@ Other changes and improvements are summarized as follows:
 
 * Open source and community focused.
 
+### DNX
+
+*DNX* stands for the *.NET Execution Environment* and basically is the thing
+that loads and runs the .NET application including the .NET framework itself.
+Formally it is a software development kit and runtime environment providing a
+host process and CLR hosting logic.
+
+DNX eases development given it provides a consistent environment across the
+supported platforms. It is a command line tool, so starting the same
+application in OS X, Linux or Windows is done with the same command on each
+platform.
+
+A DNX project is a folder with a `project.json` file, which contains the
+metadata, dependencies, targeted frameworks and other information (such as
+authors, license, etc) of your project, which in the end will be a NuGet
+package. The folder name is the name of the project.
+
 ## Community
 
 Not only this new version continues to have all source code available, but the

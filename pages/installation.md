@@ -71,4 +71,14 @@ packages to the DNX directory:
 
 The DNX directory contains the following directories:
 
-* ``
+* `packages`: Stores the installed NuGet packages by DNU
+* `runtimes`: Stores the installed runtimes by  DNVM
+* `alias`: Stores the alias to the different DNX/runtimes. For example to alias
+  the runtime `dnx-clr-win-x86.1.0.0-beta4` as `default`, create a text file
+  called `default.txt` in the alias subdirectory which has as content a line
+  with the name of the runtime.
+
+{% highlight console %}
+C:\>type %USERPROFILE%\.dnx\alias\default.txt
+dnx-clr-win-x86.1.0.0-beta4
+{% endhighlight %}

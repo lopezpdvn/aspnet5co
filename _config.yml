@@ -29,6 +29,8 @@ highlighter: pygments
 gems:
   - jekyll-sitemap
 
+github_username: lopezpdvn
+
 
 # Site owner
 owner:

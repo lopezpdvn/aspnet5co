@@ -189,7 +189,6 @@ Other changes and improvements are summarized as follows:
   4 will continue to be supported.
 
 * Open source and community focused.
-
 ### DNX
 
 *DNX* stands for the *.NET Execution Environment* and basically is the thing
@@ -206,6 +205,28 @@ A DNX project is a folder with a `project.json` file, which contains the
 metadata, dependencies, targeted frameworks and other information (such as
 authors, license, etc) of your project, which in the end will be a NuGet
 package. The folder name is the name of the project.
+
+### Docker
+
+Docker is a software project that implements lightweight containers on top of
+the Linux operating system. Docker containers are similar to virtual machines
+in terms of isolation of packaged applications, but they are lighter and easier
+to maintain and deploy.
+
+Docker can be integrated into several cloud services providers such as
+Microsoft Azure, Amazon Web Services, Google Cloud Platform, Jenkins and
+Puppet. A lot of applications and development environments have been
+*dockerized*, which means that a docker container with the respective
+application or technology already installed and provided by official or third
+party sources. A few examples of **official** containers:
+
+- [Fedora base images](https://registry.hub.docker.com/_/fedora/)
+
+- [Images for Ruby programming language and
+  environment](https://registry.hub.docker.com/_/ruby/)
+
+- [ASP.NET image containers by
+  Microsoft](https://registry.hub.docker.com/u/microsoft/aspnet/)
 
 ## Community
 

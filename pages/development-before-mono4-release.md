@@ -1,85 +1,16 @@
 ---
 layout: article
 title: "Development"
-permalink: /development/
+permalink: /development-before-release-mono4/
 ---
 
 - - -
 
 {% include toc.html %}
 
-Even at these early development versions of the ASP.NET 5 framework, there are
-several ways to develop and run DNX projects:
-
-* Visual Studio 2015 with the Microsoft Web Developer Tools
-* [Visual Studio Code](https://code.visualstudio.com)
-* [Omnisharp project](http://www.omnisharp.net). Allows .NET development with
-  editors *Atom*, *Brackets*, *Emacs*, *Sublime Text*, *Vim*, *Visual Studio
-  Code* as well as with the *Yeoman* scaffolder.
-
-Recall that a DNX project is cross-platform independently of on what platform
-it was developed/built/packaged.
-
-This section presents instructions to set up development on Docker containers
-and shows deployment of a demo application.
-
 ### Development
 
 #### Docker
-
-##### Debian
-
-Locally build the image with the project's Dockerfile
-
-{% highlight bash %}
-$ cd <aspnet5co project dir>
-$ docker build -t aspnet5co .
-{% endhighlight %}
-
-Create/run the container:
-
-{% highlight bash %}
-$ HOSTPORT=<X>
-$ CONTAINERPORT=5000
-$ HOSTVOLUME=<Y>
-$ CONTAINERVOLUME=/aspnet5co_vol
-$ NAME=aspnet5co
-$ docker run -t -i -p $HOSTPORT:$CONTAINERPORT -v $HOSTVOLUME:$CONTAINERVOLUME -h $NAME -e "ASPNET5CO_USER=$(id -u)" --name $NAME $NAME
-{% endhighlight %}
-
-Note that `CONTAINERPORT` matches the PORT in the Dockerfile.
-
-Inside the container, create user aspnet5co_user with UID same as the
-environment variable ASPNET5CO_USER. Supply a password, it's ok to forget/lost
-it.
-
-{% highlight bash %}
-root@aspnet5co:/# adduser --uid $ASPNET5CO_USER aspnet5co_user
-{% endhighlight %}
-
-{% highlight bash %}
-root@aspnet7co:/# chown -R aspnet5co_user /aspnet5co_vol
-root@aspnet5co:/# su aspnet5co
-aspnet5co_user@aspnet5co:/$ cd aspnet5co_vol
-aspnet5co_user@aspnet5co:/aspnet5co_vol$
-{% endhighlight %}
-
-Create scaffolds with yeoman.
-
-{% highlight bash %}
-aspnet5co_user@aspnet5co:/aspnet5co_vol$ yo generator-aspnet
-<...>
-aspnet5co_user@aspnet5co:/aspnet5co_vol$ exit
-<...>
-{% endhighlight %}
-
-As root
-
-{% highlight bash %}
-root@aspnet7co:/aspnet5co_vol/scaffold# dnu restore
-<...>
-root@aspnet7co:/aspnet5co_vol/scaffold# dnx . kestrel
-{% endhighlight %}
 
 ##### Fedora 21
 

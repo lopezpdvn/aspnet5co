@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Installation on Linux and Windows"
+title: "Installation on Windows and Docker"
 permalink: /installation/
 ---
 
@@ -9,7 +9,7 @@ permalink: /installation/
 {% include toc.html %}
 
 The following instructions are for installing development environment on
-Windows and Linux, as well as for documentation environment on Linux. You can
+Windows and Docker, as well as for documentation environment on Linux. You can
 see more detailed instructions that include the Mac OS X operating system
 [here](http://docs.asp.net/en/latest/getting-started/index.html).
 

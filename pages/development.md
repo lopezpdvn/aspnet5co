@@ -153,22 +153,3 @@ yum-config-manager --add-repo http://download.mono-project.com/repo/centos/
 yum clean all ; yum update
 yum install mono-complete
 {% endhighlight %}
-
-### Documentation
-
-Follow these steps to setup a Jekyll environment for the documentation of the project.
-
-Install system rubygems
-
-{% highlight bash %}
-sudo yum -y install rubygems ruby-devel rubygem-bundle gcc
-zlib-devel libxml2-devel libxslt-devel
-{% endhighlight %}
-
-Create file Gemfile
-
-{% highlight bash %}
-bundle install
-bundle config build.nokogiri --use-system-libraries
-bundle install
-{% endhighlight %}

@@ -1,7 +1,12 @@
 FROM microsoft/aspnet:1.0.0-beta5
 
-# Install nodejs
-# <https://github.com/joyent/docker-node/blob/master/0.12/wheezy/Dockerfile>
+# This Dockerfile basically extends the official ASP.NET 5 Dockerfile published
+# by Microsoft and adds NodeJS and Yeoman.
+
+RUN mkdir /aspnet5co_vol
+
+# Install nodejs #######################################################
+# source: https://github.com/joyent/docker-node/blob/master/0.12/wheezy/Dockerfile
 # verify gpg and sha256: http://nodejs.org/dist/v0.10.30/SHASUMS256.txt.asc
 # gpg: aka "Timothy J Fontaine (Work) <tj.fontaine@joyent.com>"
 # gpg: aka "Julien Gilli <jgilli@fastmail.fm>"
@@ -17,8 +22,12 @@ RUN curl -SLO "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-
     && tar -xzf "node-v$NODE_VERSION-linux-x64.tar.gz" -C /usr/local --strip-components=1 \
     && rm "node-v$NODE_VERSION-linux-x64.tar.gz" SHASUMS256.txt.asc \
     && npm install -g npm@"$NPM_VERSION" \
-    && npm cache clear \
-    && npm install -g yo generator-aspnet
+    && npm cache clear
+########################################################################
+
+RUN npm install -g yo generator-aspnet \
     && apt-get -y install vim
+
+VOLUME /aspnet5co_vol
 
 EXPOSE 5000

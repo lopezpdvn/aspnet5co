@@ -71,6 +71,7 @@ printed.
 <http://www.zdnet.com/article/microsoft-to-open-source-more-of-net-and-bring-it-to-linux-mac-os-x/>
 <https://docs.docker.com/>
 <https://github.com/aspnet/Home/wiki>
+<http://mmistakes.github.io/skinny-bones-jekyll/getting-started/>
 
 <!--
 https://www.library.cornell.edu/research/citation/apa

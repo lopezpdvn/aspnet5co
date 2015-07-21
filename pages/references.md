@@ -91,14 +91,30 @@ printed.
 * Github. (2015). *ASP.NET Home Repository*. Retrieved February 3, 2015 from
   <https://github.com/aspnet/Home>.
 
-<http://news.microsoft.com/2014/11/12/microsoft-takes-net-open-source-and-cross-platform-adds-new-development-capabilities-with-visual-studio-2015-net-2015-and-visual-studio-online/>
-<http://www.infoq.com/news/2015/04/VB-Core>
-<http://blogs.msdn.com/b/webdev/archive/2015/04/23/making-it-better-asp-net-with-visual-basic-14.aspx>
-<http://weblogs.asp.net/scottgu/introducing-asp-net-5>
-<http://www.zdnet.com/article/microsoft-to-open-source-more-of-net-and-bring-it-to-linux-mac-os-x/>
-<https://docs.docker.com/>
-<https://github.com/aspnet/Home/wiki>
-<http://mmistakes.github.io/skinny-bones-jekyll/getting-started/>
+* Microsoft News Center. (2015). *Microsoft takes .NET open source and
+  cross-platform, adds new development capabilities with Visual Studio 2015,
+  .NET 2015 and Visual Studio Online*. Retrieved June 12, 2015 from
+  <http://news.microsoft.com/2014/11/12/microsoft-takes-net-open-source-and-cross-platform-adds-new-development-capabilities-with-visual-studio-2015-net-2015-and-visual-studio-online/>.
+
+* Allen, J. (2015). *Visual Basic: Back by Popular Demand*. InfoQ.  Retrieved
+  June 26, 2015 from <http://www.infoq.com/news/2015/04/VB-Core>.
+
+* Fritz, J. T. (2015). *Making It Better: ASP.NET with Visual Basic 14*. .NET
+  Web Development and Tools Blog. Retrieved May 20, 2015 from
+  <http://blogs.msdn.com/b/webdev/archive/2015/04/23/making-it-better-asp-net-with-visual-basic-14.aspx>.
+
+* Guthrie, S. (2015). *Introducing ASP.NET 5*. ScottGu's Blog. Retrieved March
+  24, 2015 from <http://weblogs.asp.net/scottgu/introducing-asp-net-5>.
+
+* Foley, M. J. (2014). *Microsoft to open source more of .NET, and bring it to
+  Linux, Mac OS X*. ZDNet. Retrieved February 5, 2015 from
+  <http://www.zdnet.com/article/microsoft-to-open-source-more-of-net-and-bring-it-to-linux-mac-os-x/>.
+
+* Docker Official Documentation. (2015). Retrieved July 9, 2015 from
+  <https://docs.docker.com/>.
+
+* Skinny Bones Jekyll. (2015). Retrieved February 4, 2015 from
+  <http://mmistakes.github.io/skinny-bones-jekyll/getting-started/>.
 
 <!--
 https://www.library.cornell.edu/research/citation/apa

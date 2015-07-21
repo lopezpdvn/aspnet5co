@@ -25,11 +25,6 @@
   excerpt: Documentation, projects and people
   image: webimg.jpg
 
-- title: TODO
-  url: /todo
-  excerpt: Future work
-  image: webimg.jpg
-
 - title: Other
   url: /other
   excerpt: Other

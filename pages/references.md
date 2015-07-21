@@ -44,26 +44,53 @@ printed.
 
 * .NET Web Development and Tools Blog (2015). *Running ASP.NET 5 applications
   in Linux Containers with Docker*. Retrieved June 25, 2015 from
-  <http://blogs.msdn.com/b/webdev/archive/2015/01/14/running-asp-net-5-applications-in-linux-containers-with-docker.aspx>
+  <http://blogs.msdn.com/b/webdev/archive/2015/01/14/running-asp-net-5-applications-in-linux-containers-with-docker.aspx>.
 
 * Roth, D. (2014). *ASP.NET MVC 6 (now with integrated Web API!)*. Channel 9.
   Retrieved June 27, 2015.
-  <https://channel9.msdn.com/Events/dotnetConf/2014/MVC-6>
+  <https://channel9.msdn.com/Events/dotnetConf/2014/MVC-6>.
 
 * .NET Framework. Wikipedia The Free Encyclopedia. Retrieved June 20, 2015.
-  <https://en.wikipedia.org/wiki/.NET_Framework>
+  <https://en.wikipedia.org/wiki/.NET_Framework>.
 
-<http://blogs.msdn.com/b/dotnet/archive/2014/12/04/introducing-net-core.aspx>
-<http://blogs.msdn.com/b/dotnet/archive/2015/02/03/coreclr-is-now-open-source.aspx>
-<http://blogs.msdn.com/b/bethmassi/archive/2015/02/25/understanding-net-2015.aspx>
-<https://github.com/dotnet/roslyn>
-<http://blogs.msdn.com/b/dotnet/archive/2013/09/30/ryujit-the-next-generation-jit-compiler.aspx>
-<http://tirania.org/blog/archive/2014/Nov-12.html>
-<http://techcrunch.com/2014/04/03/microsoft-launches-net-foundation-to-foster-the-net-open-source-ecosystem/>
-<http://www.dotnetfoundation.org/>
-<https://en.wikipedia.org/wiki/Xamarin>
-<https://en.wikipedia.org/wiki/Unity_Technologies>
-<https://github.com/aspnet/Home>
+*  Landwerth, I. (2014). *Introducing .NET Core*. .NET Blog. Retrieved June 15,
+   2015 from
+   <http://blogs.msdn.com/b/dotnet/archive/2014/12/04/introducing-net-core.aspx>.
+
+* .NET Blog (2015). *CoreCLR is now Open Source*. Retrieved June 14, 2015 from
+  <http://blogs.msdn.com/b/dotnet/archive/2015/02/03/coreclr-is-now-open-source.aspx>.
+
+* Massi, B. (2015). *Understanding .NET 2015*. Beth Massi at Developer Tools
+  Blogs. Retrieved May 20, 2015 from
+  <http://blogs.msdn.com/b/bethmassi/archive/2015/02/25/understanding-net-2015.aspx>.
+
+* Github (2015). *Roslyn project*. Retrieved May 21, 2015 from
+  <https://github.com/dotnet/roslyn>.
+
+* .NET Blog (2013). *RyuJIT: The next-generation JIT compiler for .NET*.
+  Retrieved May 13, 2015 from
+  <http://blogs.msdn.com/b/dotnet/archive/2013/09/30/ryujit-the-next-generation-jit-compiler.aspx>.
+
+* de Icaza, M. (2014). *Microsoft Open Sources .NET and Mono*. Miguel de
+  Icaza's blog. Retrieved February 15, 2015 from
+  <http://tirania.org/blog/archive/2014/Nov-12.html>.
+
+* Lardinois, F. (2014). *Microsoft Launches .NET Foundation To Foster The .NET
+  Open Source Ecosystem*. TechCrunch. Retrieved March 9, 2015 from
+  <http://techcrunch.com/2014/04/03/microsoft-launches-net-foundation-to-foster-the-net-open-source-ecosystem/>.
+
+* .NET Foundation (2015). Retrieved June 2, 2015 from
+  <http://www.dotnetfoundation.org/>.
+
+* Xamarin. (2015). In *Wikipedia The Free Encyclopedia*. Retrieved June 29,
+  2015 from <https://en.wikipedia.org/wiki/Xamarin>.
+
+* Unity Technologies. (2015). In *Wikipedia the Free Encyclopedia*. Retrieved
+  June 29, 2015 from <https://en.wikipedia.org/wiki/Unity_Technologies>.
+
+* Github. (2015). *ASP.NET Home Repository*. Retrieved February 3, 2015 from
+  <https://github.com/aspnet/Home>.
+
 <http://news.microsoft.com/2014/11/12/microsoft-takes-net-open-source-and-cross-platform-adds-new-development-capabilities-with-visual-studio-2015-net-2015-and-visual-studio-online/>
 <http://www.infoq.com/news/2015/04/VB-Core>
 <http://blogs.msdn.com/b/webdev/archive/2015/04/23/making-it-better-asp-net-with-visual-basic-14.aspx>

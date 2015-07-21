@@ -4,6 +4,8 @@ title: "Methodology"
 permalink: /methodology/
 ---
 
+- - -
+
 {% include toc.html %}
 
 ## Stages and activities
@@ -61,7 +63,7 @@ This is a stage that can be reached at any point in time of the work in the
 project. Once reached, should be maintained indefinitively.  The activities
 involved are:
 
-* setting up a public website to distribute documentation about the project.
+* Setting up a public website to distribute documentation about the project.
   The website should be easy to maintain and built with modern technologies, as
   well as it should distribute insightful content that helps readers become
   advocates and/or collaborators of project ASP.NET. Additionally the website
@@ -69,25 +71,18 @@ involved are:
 
 * Participate in discussions and talk about issues.
 
-* being willing to publicy talk about ASP.NET and using opportunities to do so.
-  The reader is encouraged to share and use my [contact
-  information](http://lopezpedro.net) for all things related ASP.NET 5.  
+* Being willing to publicy talk about ASP.NET and using opportunities to do so.
+  The reader is encouraged to share and use my
+  [contact information]({{ site.owner.website }}) for all things related
+  ASP.NET 5.
 
-* preparation of talks for both technical and non-technical audiences.
+* Preparation of talks for both technical and non-technical audiences.
 
 ### Conclusion
 
 The activities are:
 
 * Community work done is judged adequate enough and adequate to be graded as
-  the assigned academic project.  
+  the assigned academic project.
 
-* Personally, advocacy will certaintly continue, development may continue or
-  not.
-
-<!--
-
-Definir la metodología a seguir en el proyecto, incluir las fases y las
-actividades a realizar en cada fase 
-
--->
+* Personally, advocacy will certaintly continue.

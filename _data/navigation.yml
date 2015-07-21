@@ -5,9 +5,9 @@
   excerpt: Introduction to project aspnet5co
   image: webimg.jpg
 
-- title: Proposal
-  url: /proposal
-  excerpt: Formal proposal in spanish
+- title: Methodology
+  url: /methodology
+  excerpt: Setting up methods and resources
   image: webimg.jpg
 
 - title: Development
@@ -15,14 +15,19 @@
   excerpt: Setting up development environment and guidelines
   image: webimg.jpg
 
-- title: Methodology
-  url: /methodology
-  excerpt: Setting up methods and resources
-  image: webimg.jpg
-
 - title: Testing
   url: /testing
   excerpt: Testing
+  image: webimg.jpg
+
+- title: Other
+  url: /other
+  excerpt: Other
+  image: webimg.jpg
+
+- title: Documentation
+  url: /documentation
+  excerpt: Project documentation
   image: webimg.jpg
 
 - title: References
@@ -30,12 +35,3 @@
   excerpt: Documentation, projects and people
   image: webimg.jpg
 
-- title: TODO
-  url: /todo
-  excerpt: Future work
-  image: webimg.jpg
-
-- title: Other
-  url: /other
-  excerpt: Other
-  image: webimg.jpg

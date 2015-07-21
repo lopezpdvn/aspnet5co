@@ -1,7 +1,7 @@
 ---
 layout: article
 permalink: /introduction/
-title: "Introduction"
+title: "Introduction to aspnet5co project"
 ---
 
 {% include toc.html %}
@@ -47,14 +47,6 @@ The community and the Microsoft team interact with each other to raise issues,
 make suggestions, request features or simply ask questions. All development
 work is transparent at the commit level and the discussion is public too.
 
-## Proposal
-
-[aspnet5co](http://lopezpdvn.github.io/aspnet5co) is a project that comprises
-the efforts by [Pedro I. Lopez](http://lopezpedro.net) to advocate the [ASP.NET
-5](http://www.asp.net/vnext) framework and to collaborate on its development.
-
-See also the [proposal](/proposal) document in spanish.
-
 ## Scope
 
 ASP.NET 5 represents a rethinking and re-design of .NET server side
@@ -73,7 +65,14 @@ other open source projects and events, including but not limited to:
 * Use of [Github](https://github.com/) as the main platform for discussion and
 transparent development.
 
-## Goals
+## Proposal and goals
+
+[aspnet5co](http://lopezpdvn.github.io/aspnet5co) is a project that comprises
+the efforts by [Pedro I. Lopez](http://lopezpedro.net) to advocate the [ASP.NET
+5](http://www.asp.net/vnext) framework and to introduce developers and other IT
+professionals to it.
+
+The goals of the project are:
 
 * Publicly advocate ASP.NET, as well as .NET & Web technologies in general.
 
@@ -87,9 +86,7 @@ transparent development.
 * Identify needs and feature requests of the development version of ASP.NET and
   other related open source project in the .NET community.
 
-* Collaborate with the community on the implementation of such needs.
-
-* Test previews and RTM versions of Visual Studio 2015.
+* Test previews versions of ASP.NET 5 and Visual Studio 2015.
 
 * Give feedback about ASP.NET development in Linux, given that the author has
   experience on such operating system.

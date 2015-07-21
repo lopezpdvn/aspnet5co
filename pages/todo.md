@@ -14,11 +14,13 @@ permalink: /todo/
 
 * Prepare talks for both technical and non-technical audiences.
 
+<!--
 * Provide video with audio of a work session for development of projects.
 
 * Provide GIF animations for explanatory purposes.
 
 * Provide image files for explanatory purposes.
+-->
 
 ## TBD
 

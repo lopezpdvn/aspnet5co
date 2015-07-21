@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Methodology"
+title: "Methodology, stages and activities"
 permalink: /methodology/
 ---
 
@@ -8,13 +8,11 @@ permalink: /methodology/
 
 {% include toc.html %}
 
-## Stages and activities
-
 Except for stage [Be social about project](#be-social-about-project), all
 stages are listed in chronologically order. Project ends at stage of
 conclusion.
 
-### Understanding main and related concepts
+## Understanding main and related concepts
 
 * The core concepts related to the design and purpose of ASP.NET will be
   reviewed.
@@ -24,7 +22,7 @@ conclusion.
 * Study the historial relationship of ASP.NET with other major projects within
   the .NET ecosystem.
 
-### Set development environment
+## Set development environment
 
 Since ASP.NET 5 is cross platform, the available platforms for development are
 Windows, Linux and OS X.
@@ -43,7 +41,7 @@ Windows, Linux and OS X.
   [Jabbr.NET](https://jabbr.net/), [Stack Overflow](https://stackoverflow.com/)
   and the [ASP.NET forums](http://forums.asp.net/).
 
-### Understand architectural concepts
+## Understand architectural concepts
 
 * Achieve a deeper understanding of the relationship between ASP.NET and other
   important projects within the .NET and Web communities, specially those that
@@ -57,7 +55,7 @@ Windows, Linux and OS X.
   respective development versions. This means in other words being aware of the
   upcoming features of the future releases.
 
-### Be social about project
+## Be social about project
 
 This is a stage that can be reached at any point in time of the work in the
 project. Once reached, should be maintained indefinitively.  The activities
@@ -78,7 +76,7 @@ involved are:
 
 * Preparation of talks for both technical and non-technical audiences.
 
-### Conclusion
+## Conclusion
 
 The activities are:
 

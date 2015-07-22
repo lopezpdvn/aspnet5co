@@ -4,9 +4,9 @@ title: "Methodology, stages and activities"
 permalink: /methodology/
 ---
 
-- - -
-
 {% include toc.html %}
+
+- - -
 
 Except for stage [Be social about project](#be-social-about-project), all
 stages are listed in chronologically order. Project ends at stage of

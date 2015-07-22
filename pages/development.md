@@ -4,9 +4,9 @@ title: "Development"
 permalink: /development/
 ---
 
-- - -
-
 {% include toc.html %}
+
+- - -
 
 Even at these early development versions of the ASP.NET 5 framework, there are
 several ways to develop and run DNX projects:

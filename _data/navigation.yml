@@ -20,11 +20,6 @@
   excerpt: Testing
   image: webimg.jpg
 
-- title: Other
-  url: /other
-  excerpt: Other
-  image: webimg.jpg
-
 - title: Documentation
   url: /documentation
   excerpt: Project documentation

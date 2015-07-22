@@ -50,11 +50,6 @@
   excerpt: Templates/scaffolds and testing
   image: webimg.jpg
 
-- title: Testing
-  url: /testing
-  excerpt: Testing
-  image: webimg.jpg
-
 - title: Documentation
   url: /documentation
   excerpt: Project documentation

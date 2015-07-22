@@ -4,9 +4,9 @@ title: "aspnet5co documentation"
 permalink: /documentation/
 ---
 
-- - -
-
 {% include toc.html %}
+
+- - -
 
 The documentation of project aspnet5co is built with a Docker images that uses
 the [Skinny Bones](http://mmistakes.github.io/skinny-bones-jekyll)

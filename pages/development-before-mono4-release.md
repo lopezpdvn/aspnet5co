@@ -4,9 +4,9 @@ title: "Development"
 permalink: /development-before-release-mono4/
 ---
 
-- - -
-
 {% include toc.html %}
+
+- - -
 
 ### Development
 

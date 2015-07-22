@@ -4,9 +4,9 @@ title: "Other"
 permalink: /other/
 ---
 
-- - -
-
 {% include toc.html %}
+
+- - -
 
 ## The .NET Framework and its future
 

@@ -1,12 +1,14 @@
 ---
 layout: article
 permalink: /
-title: "Home"
+title: "ASP.NET 5: Advocacy and Community"
 ---
 
 <!-- TODO use include directive instead-->
 
-{{site.project_description}}     
+- - -
+
+{{site.project_description}}
 
 Table of contents:
 

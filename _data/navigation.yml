@@ -10,19 +10,44 @@
   excerpt: Setting up methods and resources
   image: webimg.jpg
 
+- title: .NET Future
+  url: /dotnet-framework-and-future
+  excerpt: .NET Framework and .NET 2015
+  image: webimg.jpg
+
+- title: .NET cross-platform development
+  url: /dotnet-cross-platform-development
+  excerpt: Cross platform development on .NET today and in the future
+  image: webimg.jpg
+
+- title: Introduction to ASP.NET 5
+  url: /aspnet5-introduction
+  excerpt: Introduction to ASP.NET 5 framework
+  image: webimg.jpg
+
+- title: ASP.NET 5 Community
+  url: /aspnet5-community
+  excerpt: ASP.NET 5 Community and collaboration
+  image: webimg.jpg
+
+- title: DNX, DNVM and DNU
+  url: /dnx-dnvm-dnu
+  excerpt: DNX, DNVM and DNU tools for ASP.NET 5
+  image: webimg.jpg
+
+- title: Docker
+  url: /docker
+  excerpt: Docker containers for easier development
+  image: webimg.jpg
+
+- title: Installation
+  url: /installation
+  excerpt: ASP.NET 5 installation on Windows and Docker
+  image: webimg.jpg
+
 - title: Development
   url: /development
-  excerpt: Setting up development environment and guidelines
-  image: webimg.jpg
-
-- title: Testing
-  url: /testing
-  excerpt: Testing
-  image: webimg.jpg
-
-- title: Other
-  url: /other
-  excerpt: Other
+  excerpt: Templates/scaffolds and testing
   image: webimg.jpg
 
 - title: Documentation
@@ -30,8 +55,12 @@
   excerpt: Project documentation
   image: webimg.jpg
 
+- title: Roadmap
+  url: /roadmap
+  excerpt: ASP.NET 5 roadmap
+  image: webimg.jpg
+
 - title: References
   url: /references
   excerpt: Documentation, projects and people
   image: webimg.jpg
-

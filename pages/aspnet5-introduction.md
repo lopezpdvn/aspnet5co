@@ -12,12 +12,8 @@ ASP.NET is one of the most used web frameworks. Among Microsoft technologies it
 is notable in having been open source since its early versions. ASP.NET is
 currently being revised and re-implemented as a modular, lean and cross
 platform framework for its next release version 5, offering very important and
-desirable features and advantages.
-
-ASP.NET is currently being revised and re-implemented as a modular, lean and
-cross platform framework for its next release version 5, offering very
-important and desirable features and advantages. The license of the software
-and the development methodology by Microsoft allows the project to benefit from
+desirable features and advantages.  The license of the software and the
+development methodology by Microsoft allows the project to benefit from
 feedback and interaction with the community.
 
 ASP.NET 5 includes architectural changes that make its core framework much

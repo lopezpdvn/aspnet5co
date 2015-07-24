@@ -50,7 +50,6 @@ Locally build the image with the [project's
 Dockerfile](https://github.com/lopezpdvn/aspnet5co/blob/master/Dockerfile)
 
 {% highlight bash %}
-$ cd aspnet5co
 $ sudo docker build -t aspnet5co-base .
 {% endhighlight %}
 

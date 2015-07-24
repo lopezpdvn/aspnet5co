@@ -13,5 +13,3 @@ title: "ASP.NET 5: Advocacy and Community"
 Table of contents:
 
 {% include navigation.html %}
-
-**Note**: This project is currently in development.

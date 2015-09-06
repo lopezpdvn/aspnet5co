@@ -18,7 +18,7 @@ several ways to develop and run DNX projects:
   Code* as well as with the *Yeoman* scaffolder.
 
 Recall that a DNX project is cross-platform independently of on what platform
-it was developed/built/packaged.
+it was developed.
 
 ## Create scaffolds
 

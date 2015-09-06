@@ -37,7 +37,7 @@
 
 - title: Docker
   url: /docker
-  excerpt: Docker containers for easier development
+  excerpt: Docker containers for easier development and deployment
   image: webimg.jpg
 
 - title: Installation
@@ -52,12 +52,12 @@
 
 - title: Documentation
   url: /documentation
-  excerpt: Project documentation
+  excerpt: ASP.NET5CO documentation
   image: webimg.jpg
 
 - title: Roadmap
   url: /roadmap
-  excerpt: ASP.NET 5 roadmap
+  excerpt: ASP.NET 5 Roadmap
   image: webimg.jpg
 
 - title: References

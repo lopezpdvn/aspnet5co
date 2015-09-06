@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "aspnet5co documentation"
+title: "ASP.NET5CO documentation"
 permalink: /documentation/
 ---
 
@@ -8,14 +8,16 @@ permalink: /documentation/
 
 - - -
 
-The documentation of project aspnet5co is built with a Docker images that uses
-the [Skinny Bones](http://mmistakes.github.io/skinny-bones-jekyll)
+The documentation of project {{ site.title }} is built with a Docker image
+that uses the [Skinny Bones](http://mmistakes.github.io/skinny-bones-jekyll)
 [Jekyll](http://jekyllrb.com) theme.
 
 ## Installation
 
 Follow these steps to setup a Jekyll environment for the documentation of the
-project. Install Docker and start daemon
+project.
+
+Install Docker and start daemon
 
 {% highlight bash %}
 $ # For Fedora systems
@@ -23,7 +25,7 @@ $ sudo yum -y install docker-io
 $ sudo systemctl start docker.service
 {% endhighlight %}
 
-Clone the [aspnet5co repository](https://github.com/lopezpdvn/aspnet5co)
+Clone the [ASP.NET5CO repository](https://github.com/lopezpdvn/aspnet5co)
 
 {% highlight bash %}
 $ git clone git@github.com:lopezpdvn/aspnet5co.git

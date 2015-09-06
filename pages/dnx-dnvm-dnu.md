@@ -45,7 +45,7 @@ DNX versions, upgrade to latests versions, choose what NuGet package feed to
 download from, alias the different DNXs installed and more.
 
 Several different DNXs can simultaneously run and coexist in a single host
-machine, and DNX applications/projects can select a specific DNX as an runtime
+machine, and DNX applications/projects can select a specific DNX as a runtime
 environment. One way in which a given DNX might be different to another DNX is
 in the particular .NET framework they use: as we previously commented a DNX can
 choose between using the .NET Core framework or Mono on either Linux, OS X or
@@ -67,8 +67,8 @@ dependencies of a particular project, and more.
 
 ## The DNX directory
 
-Following the UNIX practice, by default DNVM and DNU download runtimes and
-packages to the DNX directory:
+Following the UNIX standard practice, by default DNVM and DNU download runtimes
+and packages to the DNX directory:
 
 * On Windows is `%USERPROFILE%\.dnx`
 * On Linux and OS X is `$HOME/.dnx`

@@ -40,6 +40,10 @@ Additionally, every Tuesday Microsoft team engages in real time with the
 community in the [ASP.NET Community Standup][] at [Scott Hanselman's YouTube
 Channel](https://www.youtube.com/user/shanselman). In these weekly sessions the
 Microsoft team reports recent development and design decisions and also answers
-questions submitted in the Google Hangout and on Twitter.
+questions submitted on Google Hangout and on Twitter. The Community Standup
+website is itself an ASP.NET 5 web application hosted in the cloud.
 
-[ASP.NET Community Standup]: https://www.youtube.com/playlist?list=PL0M0zPgJ3HSftTAAHttA3JQU4vOjXFquF
+Past sessions are archived in a YouTube [playlist][].
+
+[ASP.NET Community Standup]: https://live.asp.net/
+[playlist]: https://www.youtube.com/playlist?list=PL0M0zPgJ3HSftTAAHttA3JQU4vOjXFquF

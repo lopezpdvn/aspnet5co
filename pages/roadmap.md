@@ -1,7 +1,7 @@
 ---
 layout: article
 permalink: /roadmap/
-title: "Project roadmap"
+title: "Project Roadmap"
 ---
 
 {% include toc.html %}
@@ -10,12 +10,10 @@ title: "Project roadmap"
 
 ## Subsequent releases
 
-Per discussion in [ASP.NET Community Hangout - June 30th,
-2015](https://www.youtube.com/watch?v=vqTGJGy3D9s&t=12m53s):
+- Beta 8, 5 Oct 2015.
+- RC, Nov 2015.
+- 1.0.0/RTM, early 2016
 
-- Beta 5, released start of July. Shipped with Visual Studio 2015 RTM.
-- Beta 6, end of July.
-- Beta 7, end of August.
-- Beta 8, end of September.
-- RC, november. When RC is released, it will include a Go Live license.
-- RTM, early 2016
+November's RC will be a supported and production ready cross-platform release,
+it will include a Go Live license. See the [official project Schedule and
+Roadmap](https://github.com/aspnet/Home/wiki/Roadmap) at the project's wiki.

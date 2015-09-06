@@ -13,4 +13,4 @@ servelocal:
 	bundle exec jekyll serve -w -D -V -H 0.0.0.0
 
 push:
-	git push origin gh-pages reorg
+	git push origin gh-pages

@@ -20,10 +20,11 @@ including ASP.NET 5 projects.
 ## Installation on Windows
 
 For Windows you have the choice of whether using Visual Studio or not, using it
-is recommended. Visual Studio 2015 RTM will be released on July 20th and it
-will provide a free community version. When installing it, be sure to select
-the *Microsoft Web Developer Tools* checkbox. This will install ASP.NET 4 and
-5.
+is recommended. [Visual Studio 2015 was
+released](https://www.visualstudio.com/en-us/news/vs2015-vs.aspx) on July 20th
+and Microsoft provides a free community version. When installing it, be sure to
+select the *Microsoft Web Developer Tools* checkbox. This will install ASP.NET
+4 and 5.
 
 You can also install ASP.NET 5 without Visual Studio. To do this you just have
 to run a one-liner command provided in the ASP.NET home repo README file,
@@ -32,10 +33,10 @@ either the [Powershell](https://github.com/aspnet/home#powershell) or the
 
 ## Installation on Docker
 
-Clone [aspnet5co repository](https://github.com/lopezpdvn/aspnet5co)
+Clone the [ASP.NET5CO repository](https://github.com/{{ site.github_username }}/aspnet5co)
 
 {% highlight bash %}
-$ git clone 'https://github.com/lopezpdvn/aspnet5co'
+$ git clone 'https://github.com/{{ site.github_username }}/aspnet5co'
 {% endhighlight %}
 
 Checkout `master` branch
@@ -50,6 +51,7 @@ Locally build the image with the [project's
 Dockerfile](https://github.com/lopezpdvn/aspnet5co/blob/master/Dockerfile)
 
 {% highlight bash %}
+$ IMAGE=aspnet5co-base
 $ sudo docker build -t aspnet5co-base .
 {% endhighlight %}
 
@@ -57,21 +59,12 @@ Create/run the container. Note that `CONTAINERPORT` matches the PORT in the
 Dockerfile.
 
 {% highlight bash %}
-HOSTPORT=4000
-CONTAINERPORT=5000
-NAME=aspnet5co-dev
-IMAGE=aspnet5co-base
-sudo docker run -t -i -p $HOSTPORT:$CONTAINERPORT -h $NAME -e "ASPNET5CO_USER=$(id -u)" --name $NAME $IMAGE
-{% endhighlight %}
-
-{% highlight bash %}
 $ HOSTPORT=<X>
 $ CONTAINERPORT=5000
 $ HOSTVOLUME=<Y>
 $ CONTAINERVOLUME=/aspnet5co_vol
 $ NAME=aspnet5co-dev
-$ IMAGE=aspnet5co-base
-$ sudo docker run -t -i -p $HOSTPORT:$CONTAINERPORT -v $HOSTVOLUME:$CONTAINERVOLUME -h $NAME -e "ASPNET5CO_USER=$(id -u)" --name $NAME $NAME
+$ sudo docker run -t -i -p $HOSTPORT:$CONTAINERPORT -v $HOSTVOLUME:$CONTAINERVOLUME -h $NAME -e "ASPNET5CO_USER=$(id -u)" --name $NAME $IMAGE
 {% endhighlight %}
 
 Inside the container, create user aspnet5co_user with UID same as the

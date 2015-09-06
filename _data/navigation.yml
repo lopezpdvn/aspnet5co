@@ -2,7 +2,7 @@
 
 - title: Introduction
   url: /introduction
-  excerpt: Introduction to project aspnet5co
+  excerpt: Introduction to project ASP.NET5CO
   image: webimg.jpg
 
 - title: Methodology
@@ -10,12 +10,12 @@
   excerpt: Setting up methods and resources
   image: webimg.jpg
 
-- title: .NET Future
+- title: The .NET Framework and its future
   url: /dotnet-framework-and-future
   excerpt: .NET Framework and .NET 2015
   image: webimg.jpg
 
-- title: .NET cross-platform development
+- title: Cross-platform development with .NET
   url: /dotnet-cross-platform-development
   excerpt: Cross platform development on .NET today and in the future
   image: webimg.jpg

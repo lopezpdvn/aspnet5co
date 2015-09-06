@@ -1,7 +1,7 @@
 ---
 layout: article
 permalink: /
-title: "ASP.NET 5: Advocacy and Community"
+title: "ASP.NET5CO: Advocacy and Community"
 ---
 
 <!-- TODO use include directive instead-->

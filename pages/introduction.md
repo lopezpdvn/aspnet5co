@@ -1,7 +1,7 @@
 ---
 layout: article
 permalink: /introduction/
-title: "Introduction to aspnet5co project"
+title: "Introduction to project ASP.NET5CO"
 ---
 
 {% include toc.html %}
@@ -43,7 +43,12 @@ Roadmap]({{ site.baseurl }}/roadmap).
 
 ASP.NET is open source and its development version 5 is currently in the works,
 with the official repositories hosted at [Github](https://github.com/aspnet/).
-The license of the source code is Apache 2.0.
+The license of the source code is Apache 2.0, which an open source license
+approved by the [Free Software Foundation][] and the
+[Open Source Initiative][].
+
+[Free Software Foundation]: https://www.fsf.org/
+[Open Source Initiative]: http://opensource.org/
 
 The community and the Microsoft team interact with each other to raise issues,
 make suggestions, request features or simply ask questions. All development
@@ -69,10 +74,10 @@ transparent development.
 
 ## Proposal and goals
 
-[aspnet5co](http://lopezpdvn.github.io/aspnet5co) is a project that comprises
-the efforts by [Pedro I. Lopez](http://lopezpedro.net) to advocate the [ASP.NET
-5](http://www.asp.net/vnext) framework and to introduce developers and other IT
-professionals to it.
+ASP.NET5CO is a project that comprises the efforts by
+[Pedro Ivan  Lopez]({{ site.owner.website }}) to socially and technically
+advocate the [ASP.NET 5](http://www.asp.net/vnext)
+framework and to introduce developers and other IT professionals to it.
 
 The goals of the project are:
 
@@ -89,6 +94,3 @@ The goals of the project are:
   other related open source project in the .NET community.
 
 * Test previews versions of ASP.NET 5 and Visual Studio 2015.
-
-* Give feedback about ASP.NET development in Linux, given that the author has
-  experience on such operating system.

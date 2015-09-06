@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title: "aspnet5co"
+title: "ASP.NET5CO"
 description: "ASP.NET 5: Advocacy and collaboration"
 logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
@@ -17,7 +17,7 @@ baseurl: /aspnet5co
 # Jekyll configuration
 urldoc: "http://pedroivanlopez.com/aspnet5co"
 
-project_description: "[aspnet5co](http://pedroivanlopez.com/aspnet5co) is a project that comprises the efforts by [Pedro Ivan Lopez](http://pedroivanlopez.com) to advocate the [ASP.NET 5](http://www.asp.net/vnext) framework. [M.C. Aída Lucina González Lara](http://www.fime.uanl.mx/oferta_educativa/maestrias/ingenieria_de_la_informacion/) is the project advisor at [FIME](http://www.fime.uanl.mx/)/[UANL](http://www.uanl.mx/)."
+project_description: "[ASP.NET5CO](http://pedroivanlopez.com/aspnet5co) is a project that comprises the efforts by [Pedro Ivan Lopez](http://pedroivanlopez.com) to socially and technically advocate the [ASP.NET 5](http://www.asp.net/vnext) framework. [M.C. Aída Lucina González Lara](http://www.fime.uanl.mx/oferta_educativa/maestrias/ingenieria_de_la_informacion/) is the project advisor at [FIME](http://www.fime.uanl.mx/)/[UANL](http://www.uanl.mx/)."
 
 sass:
     sass_dir: _sass
@@ -41,7 +41,7 @@ owner:
   google:
     ad-client: 
     ad-slot: 
-  bio: "Pedro Ivan Lopez is a software engineer and a (post-)graduate student at UANL"
+  bio: "Pedro Ivan Lopez is a software engineer interested in web and large scale systems."
   avatar: bio-photo.jpg # 160x160 px image for author byline
 disqus-shortname:
 

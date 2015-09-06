@@ -9,8 +9,7 @@ permalink: /methodology/
 - - -
 
 Except for stage [Be social about project](#be-social-about-project), all
-stages are listed in chronologically order. Project ends at stage of
-conclusion.
+stages are listed in chronologically order.
 
 ## Understanding main and related concepts
 
@@ -27,19 +26,15 @@ conclusion.
 Since ASP.NET 5 is cross platform, the available platforms for development are
 Windows, Linux and OS X.
 
-* ASP.NET on Linux and OS X requires Mono, and as of now in order to use the
-  bleeding edge versions one needs to build Mono from source.  Because of this
-  a development environment will be set up on a [Docker
-  container](https://www.docker.com/) container and a docker file will be
-  provided.
+* ASP.NET on Linux and OS X requires Mono.  A development environment will be
+  set up on a [Docker container](https://www.docker.com/) container and a
+  docker file will be provided.
 
 * Equivalent versions of the development environment on Windows will be shown.
 
 * Getting to know the development workflow and tools.
 
-* Set up credentials for communities across the web:
-  [Jabbr.NET](https://jabbr.net/), [Stack Overflow](https://stackoverflow.com/)
-  and the [ASP.NET forums](http://forums.asp.net/).
+* Set up credentials for communities across the web.
 
 ## Understand architectural concepts
 
@@ -83,4 +78,4 @@ The activities are:
 * Community work done is judged adequate enough and adequate to be graded as
   the assigned academic project.
 
-* Personally, advocacy will certaintly continue.
+* Personally, advocacy will continue.

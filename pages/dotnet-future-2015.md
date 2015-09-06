@@ -87,7 +87,7 @@ of now:
 
 ## Involvement with organizations
 
-The .NET Foundation is and independent organization with the goal of improving
+The .NET Foundation is an independent organization with the goal of improving
 open source development and community collaboration around the .NET Framework
 and related technologies. It was founded by Microsoft in April 2014. Miguel de
 Icaza, co-founder and CTO of Xamarin is on the board of directors.

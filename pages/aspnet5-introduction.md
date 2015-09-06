@@ -13,20 +13,19 @@ is notable in having been open source since its early versions. ASP.NET is
 currently being revised and re-implemented as a modular, lean and cross
 platform framework for its next release version 5, offering very important and
 desirable features and advantages.  The license of the software and the
-development methodology by Microsoft allows the project to benefit from
+development methodology by Microsoft allow the project to benefit from
 feedback and interaction with the community.
 
 ASP.NET 5 includes architectural changes that make its core framework much
 leaner and more modular. The whole framework is divided into a set of granular
-and well factored NuGet packages. This allows to only request and install the
+and well factored NuGet packages. This allows to request and install only the
 functionality actually required, considerably reducing the application's
 footprint and improving its security.
 
 ASP.NET 5 will run on both the full .NET Framework as well as on .NET Core when
 released. Either choice is effectively cross-platform, since the full Mono's
-framework already runs on different platforms.
-
-Contrary to initial rumours, [ASP.NET 5 will support VisualBasic.NET along with
+framework already runs on different platforms.  Contrary to initial rumours,
+[ASP.NET 5 will support VisualBasic.NET along with
 C#](http://blogs.msdn.com/b/webdev/archive/2015/04/23/making-it-better-asp-net-with-visual-basic-14.aspx).
 
 Other changes and improvements are summarized as follows:

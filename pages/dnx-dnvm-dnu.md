@@ -26,7 +26,7 @@ available options:
 - The full .NET framework, only supported on Windows, with source code
   available but not open-source-style contributions.
 
-- .NET Core, which currenlty is in development but rapidly evolving. Eventually
+- .NET Core, which currently is in development but rapidly evolving. Eventually
   will be cross-platform but current support for Linux and Mac OS X is very
   early.
 
@@ -52,7 +52,7 @@ choose between using the .NET Core framework or Mono on either Linux, OS X or
 Windows; or using the full .NET framework on Windows only.
 
 Another way in which a given DNX may differ from another DNX is the version.
-Since currenly the whole ASP.NET is in development the NuGet feeds are
+Since currently the whole ASP.NET is in development the NuGet feeds are
 providing the CI (*Continuous Integration*) builds which are identified by
 incremental numbers, as well as releases that are more stable, for example the
 ones tagged with a beta number.

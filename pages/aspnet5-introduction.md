@@ -24,7 +24,7 @@ footprint and improving its security.
 
 ASP.NET 5 will run on both the full .NET Framework as well as on .NET Core when
 released. Either choice is effectively cross-platform, since the full Mono's
-framework already runs on different platforms.  Contrary to initial rumours,
+framework already runs on different platforms.  Contrary to initial rumors,
 [ASP.NET 5 will support VisualBasic.NET along with
 C#](http://blogs.msdn.com/b/webdev/archive/2015/04/23/making-it-better-asp-net-with-visual-basic-14.aspx).
 

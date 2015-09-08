@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "ASP.NET 5 community"
+title: "ASP.NET 5 Community"
 permalink: /aspnet5-community/
 ---
 

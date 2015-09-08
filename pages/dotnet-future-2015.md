@@ -32,7 +32,7 @@ preview.
 ## .NET 2015
 
 The next generation of .NET technologies is being marketed with the term *.NET
-2015* and it includes importante updates to the framework, the runtimes,
+2015* and it includes important updates to the framework, the runtimes,
 compilers, libraries, release licenses, applications models and development
 workflows of applications and of the technologies. In short, Microsoft aims to
 significantly improve the developer's experience by open sourcing the full
@@ -58,7 +58,7 @@ Regarding the software framework itself, from now on there will be 2 separate
   package, it will make it possible for applications to ship with its own .NET
   framework without affecting other .NET applications running on the same
   machine, greatly simplifying deployment and package management. This means
-  that invididual applications can exist isolated and will no longer require
+  that individual applications can exist isolated and will no longer require
   machine-wide updates to the .NET framework.
 
 The following components are part of .NET 2015 too and are open source already:
@@ -94,7 +94,7 @@ Icaza, co-founder and CTO of Xamarin is on the board of directors.
 
 Microsoft continues to be involved with the Mono project, Xamarin and Unity.
 
-*Mono* is an open source project that develops a Ecma-standard complian, .NET
+*Mono* is an open source project that develops a Ecma-standard compliant, .NET
 Framework-compatible set of tools, most notably a C# compiler and a CLR.
 
 *Xamarin* is a software company that creates .NET development tools to create

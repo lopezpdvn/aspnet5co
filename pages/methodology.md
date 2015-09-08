@@ -18,7 +18,7 @@ stages are listed in chronologically order.
 
 * Study the history of ASP.NET.
 
-* Study the historial relationship of ASP.NET with other major projects within
+* Study the historical relationship of ASP.NET with other major projects within
   the .NET ecosystem.
 
 ## Set development environment
@@ -27,8 +27,8 @@ Since ASP.NET 5 is cross platform, the available platforms for development are
 Windows, Linux and OS X.
 
 * ASP.NET on Linux and OS X requires Mono.  A development environment will be
-  set up on a [Docker container](https://www.docker.com/) container and a
-  docker file will be provided.
+  set up on a [Docker container](https://www.docker.com/) and a docker file
+  will be provided.
 
 * Equivalent versions of the development environment on Windows will be shown.
 
@@ -39,21 +39,22 @@ Windows, Linux and OS X.
 ## Understand architectural concepts
 
 * Achieve a deeper understanding of the relationship between ASP.NET and other
-  important projects within the .NET and Web communities, specially those that
+  important projects within the .NET and Web communities, especially those that
   are currently in development.
 
-* Understand the relatioship between the ASP.NET and other recent projects such
+* Understand the relationship between the ASP.NET and other recent projects such
   as Roslyn, ASP.NET MVC 6 and .NET 5.
 
 * Be able to describe high level designs of solutions for specific
   applications, by combining ASP.NET with other related technologies and their
-  respective development versions. This means in other words being aware of the
-  upcoming features of the future releases.
+  respective development versions.
+  
+* Be aware of the upcoming features of the future releases.
 
 ## Be social about project
 
 This is a stage that can be reached at any point in time of the work in the
-project. Once reached, should be maintained indefinitively.  The activities
+project. Once reached, should be maintained indefinitely.  The activities
 involved are:
 
 * Setting up a public website to distribute documentation about the project.

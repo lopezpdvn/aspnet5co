@@ -5,3 +5,4 @@ serve
 .sass-cache
 *odt
 bin/
+tmp/
